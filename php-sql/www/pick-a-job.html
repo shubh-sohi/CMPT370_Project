@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock A Job</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="pick.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<div>
+    <div>
+        <svg class="logo" id="logo" height="100" width="180">
+            <a href="index.html">
+                <text id="rock" fill = #ffffff x="0" y="40">ROCK</text>
+                <text id="a" fill = #F02B2D x="70" y="70">A</text>
+                <text id="job" fill = #ffffff x="105" y="70">JOB</text>
+                Sorry, your browser does not support inline SVG.
+            </a>
+        </svg>
+        <div style="float: right">
+            <button class="butns" >Fname LName</button>
+
+        </div>
+    </div>
+
+</div>
+<span style="font-size: 30px; font-weight: bold; color: #F02B2D; margin-left: 20px; font-size: 40px;">Pick A Job</span>
+<div class="job-container">
+    <div class="left-container" id="mini_disc">
+        <!--<div class="mini-job-container">-->
+            <!--<div>ok-->
+                <!--ok</div>-->
+            <!--<div>ok</div>-->
+        <!--</div>-->
+        <!--<div class="mini-job-container" >-->
+            <!--ok-->
+        <!--</div>-->
+    </div>
+    <div class="right-container" id="detail_disc">
+        <div class="job-details-container">
+            Pick a job from the postings in left and see the details here.<br>
+        </div>
+    </div>
+</div>
+<script src="pick-helper.js"></script>
+
+</body>
+</html>

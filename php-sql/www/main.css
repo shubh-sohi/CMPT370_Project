@@ -1,0 +1,68 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    background-image: url("cool-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color: white;
+}
+.butns{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: inherit;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.butns:hover{
+    color: #F02B2D;
+    font-family: 'Cinzel', serif;
+}
+
+.banner-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner{
+    margin-top: 50px;
+    color: rgba(255,255,255,0.9);
+    /*text-align: center;*/
+    text-shadow: 3px 3px 4px #000000;
+    font-size: 150px;
+}
+
+.pick-post{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    border-color: #F02B2D;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.pick-post:hover{
+    background-color: rgba(68, 6, 0, 0.6);
+    font-family: 'Cinzel', serif;
+    color: #F02B2D;
+}
+
+/*.button-box{*/
+    /*width: 60%;*/
+    /*margin-top: 70px;*/
+    /*border-style: solid;*/
+    /*border-color: #F02B2D;*/
+/*}*/
+
+
+@media screen and (max-width: 700px){
+    .banner{
+        font-size: 70px;
+    }
+}
