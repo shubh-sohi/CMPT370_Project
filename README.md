@@ -12,3 +12,7 @@
     * username - shubhuser
     * password - shubhpass
 * For running the test.php file just follow the above process and go to http://localhost:30001/test.php
+
+-----------------------OR-----------------------
+
+https://rockajob.herokuapp.com/ -> This is the link to the hosted website, All the features may not work on the hosted site and can be used as a back up if the docker doesn't work
