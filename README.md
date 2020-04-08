@@ -11,5 +11,4 @@
 * The login for myphpadmin is as follows:
     * username - shubhuser
     * password - shubhpass
-
 * For running the test.php file just follow the above process and go to http://localhost:30001/test.php
