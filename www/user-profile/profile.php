@@ -72,7 +72,7 @@
                             while ($row3 = mysqli_fetch_array($result3)) {
                                 echo '<div class="postcontain" style="border: 2px solid #767676; border-radius: 25px;">';
                                 echo '<b>Title : </b>' . $row3['title'];
-                                echo '<br /><b>Pay : </b>' . $row3["amount"];
+                                echo '<br /><b>Pay : </b>' . $row3["amount"] . '$';
                                 echo '<br /><b>Job Location : </b>' . $row3["job_address"] . ', ' . 'Saskatoon' . ', ' . $row3["job_postal"] . '.';
                                 echo '<br /><b>Job Description : </b>' . ucfirst($row3["job_description"]);
                                 echo '</div>';
