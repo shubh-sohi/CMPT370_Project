@@ -88,7 +88,7 @@ if (isset($_POST['assignJob'])) {
                                 $job_id = $row1['job_id'];
                                 echo '<div class="postcontain" style="border: 2px solid #767676; border-radius: 25px;">';
                                 echo '<b>Title : </b>' . $row1['title'];
-                                echo '<br /><b>Pay : </b>' . $row1["amount"];
+                                echo '<br /><b>Pay : </b>' . $row1["amount"] . '$';
                                 echo '<br /><b>Job Location : </b>' . $row1["job_address"] . ', ' . 'Saskatoon' . ', ' . $row1["job_postal"] . '.';
                                 echo '<br /><b>Job Status : </b>' . ucfirst($row1["job_status"]);
                                 echo '<br />';
@@ -136,7 +136,7 @@ if (isset($_POST['assignJob'])) {
                                 while ($row3 = mysqli_fetch_array($result3)) {
                                     echo '<div class="postcontain" style="border: 2px solid #767676; border-radius: 25px;">';
                                     echo '<b>Title : </b>' . $row3['title'];
-                                    echo '<br /><b>Pay : </b>' . $row3["amount"];
+                                    echo '<br /><b>Pay : </b>' . $row3["amount"] . '$';
                                     echo '<br /><b>Job Location : </b>'.$row3["job_address"].', '.'Saskatoon'.','.$row3["job_postal"].'.';
                                     echo '<br /><b>Job Description : </b>' . ucfirst($row3["job_description"]);
                                     echo '</div>';
