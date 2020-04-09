@@ -15,4 +15,4 @@
 
 -----------------------OR-----------------------
 
-https://rockajob.herokuapp.com/ -> This is the link to the hosted website, All the features may not work on the hosted site and can be used as a back up if the docker doesn't work
+https://rockajob.herokuapp.com/ -> This is the link to the hosted website.
